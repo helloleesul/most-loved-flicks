@@ -7,6 +7,7 @@ function Error() {
 
   return (
     <div className={error.container}>
+      <h1>404</h1>
       <h1>Error</h1>
       <p>{msg ? msg : "잘못된 접근입니다."}</p>
       <Link className={error.nav} to={"/"}>
